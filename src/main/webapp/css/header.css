@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+@import url("jquery/jquery.ui.all.css");
+
+body {
+	font-family: Arial;
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border: 0;
+}
+
+.header{
+	position: relative;
+	width: 1250px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.headerSystemAccount {
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.headerLink {
+	color: black;
+	font-size: 14px;
+}
+
+.nav{
+	margin: -30px 0px -1px 0px !important;
+	margin: -18px 0px -1px 0px ;
+	text-align:center;
+	width: 454px;
+	height:30px;
+	line-height:30px;
+	clear:both;
+}
+
+.nav a{
+	text-decoration:none;
+	color:#333;
+	font-size:14px;
+}
+.nav ul{
+	list-style:none;
+}
+
+.meun {
+	float:right;
+	position:relative;
+}
+
+.meun a{
+	display:inline-block;
+	padding:0 10px;
+}
+.meun a:hover{
+	background:#333;
+	color:#fff;
+	width: 114px !important;
+	width: 130px;
+}
+
+.sub li a{
+	margin-left: -40px !important;
+	margin-left: 0px;
+}
+
+.sub li a:hover{
+	background:#333;
+	color:#fff;
+	margin-left: -40px !important;
+	margin-left: 0px;
+	width: 114px !important;
+	width: 130px;
+}
+
+.meun ul{
+	display:none;
+	position:absolute;
+	left: 0 !important;
+	left:-42;
+	top:30px;
+	width:92px !important;
+	width:134px;
+	background:#eee;
+	border:1px solid #d3d3d3;
+}
+
+.meun ul a{
+	display:block;
+	width: 130px;
+}
+
+.clickBefore {
+	background: #eee;
+	width: 134px;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+.clickBefore a {
+	color:#333;
+}
+
+.clickAfter {
+	background: #333;
+	width: 134px;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+.clickAfter a {
+	color:#fff;
+}
+
+.clickAfter ul li a {
+	color:#333;
+}
+
+.heaerLine {
+	border-bottom:10px solid #333;
+	color: #333;
+	width: 100%;
+	z-index: -99;
+}
+
+.errogMessage {
+	text-align: left;
+	margin-left: 20px;
+	height: 20px;
+	width: 1200px;
+	color: red;
+	font-weight: bold;
+}
+
+.bodyContent {
+	padding: 0px;
+	margin: 0px;
+	width: 1250px;
+	height: 650px
+}
+.font-style {
+	font-size: 12px;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+
+.table_bd{
+	border-collapse: collapse;
+}
+.td_bd{
+	border:1px solid #d2d2d2;
+}
+
+.button_div {
+	float : right;
+	margin-top: 5px;
+}
+.button_div button{
+	margin-right:10px;
+}
+.layout{
+	width:1250px; 
+	margin:0px auto;
+	overflow:hidden;
+}
+.button_width{
+	width:300px;
+}
