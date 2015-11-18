@@ -27,7 +27,7 @@ public class UserServiceImpl implements IUserService {
 
         userDao.insertSelective(person);
 
-        int i = 1 / 0;
+       // int i = 1 / 0;
 
         return 1;
     }

@@ -1,7 +1,7 @@
 package com.cn.hnust.dao;
 
-import com.cn.hnust.pojo.Person;
 import com.cn.hnust.pojo.User;
+import org.springframework.stereotype.Repository;
 
 public interface IUserDao {
     int deleteByPrimaryKey(Integer id);
